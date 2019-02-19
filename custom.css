@@ -18,6 +18,7 @@ limitations under the License.
    /* Modify these to change your theme colors: */
    --primary: #09F;
    --text: #DDD;
+   --text-black: #000000;
    --background: #111;
    --background-elevated: #222;
 
@@ -36,6 +37,7 @@ limitations under the License.
    --scrollbar-border: var(--primary);
 
    --pink: #F7A8B8;
+   --pink-elevated: #f9b1bf;
    --blue: #55CDFC;
 }
 
@@ -69,8 +71,8 @@ hr {
 /*.TeamSidebar, .TeamSidebar .StoplightContainer, .TeamSidebar .TeamSidebar-addArea {*/
 /*nav.p-channel_sidebar {*/
 div.client_channels_list_container {
-   background-color: var(--background-elevated) !important;
-   box-shadow: var(--background-elevated) 1px 1px 25px;
+   background-color: var(--pink-elevated) !important;
+   box-shadow: var(--pink-elevated) 1px 1px 25px;
    color: var(--text);
    z-index: 1;
 }
