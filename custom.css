@@ -39,6 +39,7 @@ limitations under the License.
    --pink: #F7A8B8;
    --pink-elevated: #f9b1bf;
    --blue: #55CDFC;
+   --blue-elevated: rgb(122, 217, 255);
 }
 
 h1, h2, h3, h4 {
@@ -105,7 +106,7 @@ body:not(.loading) #team_menu:active {
 .p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim) .p-channel_sidebar__name,
 .p-channel_sidebar__section_heading_label--clickable:hover,
 .p-channel_sidebar__quickswitcher:hover {
-   color: var(--text-bright) !important;
+   color: var(--blue) !important;
 }
 
 /*broken*/
@@ -240,16 +241,16 @@ li.active[class] span,
 
 /*"more unreads" bottom*/
 .p-channel_sidebar__banner--top {
-   background-color: var(--pink);
-   border: 1px solid var(--border-bright);
+   background-color: var(--blue);
+   border: 1px solid var(--blue-elevated);
    border-top: none;
    border-radius: 0 0 15px 15px;
 }
 
 /*"more unreads" bottom */
 .p-channel_sidebar__banner--bottom {
-   background-color: var(--pink);
-   border: 1px solid var(--border-bright);
+   background-color: var(--blue);
+   border: 1px solid var(--blue-elevated);
    border-bottom: none;
    border-radius: 15px 15px 0 0;
 }
