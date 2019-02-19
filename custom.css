@@ -73,7 +73,7 @@ hr {
 /*nav.p-channel_sidebar {*/
 div.client_channels_list_container {
    background-color: var(--pink-elevated) !important;
-   box-shadow: var(--pink-elevated) 1px 1px 25px;
+   box-shadow: var(--pink) 1px 1px 25px;
    color: var(--text);
    z-index: 1;
 }
@@ -842,7 +842,7 @@ ts-thread .thread_messages,
 }
 .p-message_pane .p-message_pane__top_banners:not(:empty)+div .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .p-message_pane__top_banners:not(:empty)+div .c-message_list:not(.c-virtual_list--scrollbar):before
 {
-	box-shadow: 0 32px var(--background);
+	box-shadow: 0 32px var(--pink);
 }
 ts-thread .collapse_inline_thread_container:hover,
 ts-thread .view_all_replies_container:hover {
