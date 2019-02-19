@@ -78,14 +78,14 @@ div.client_channels_list_container {
 }
 
 nav.p-channel_sidebar {
-   background-color: var(--background-elevated);
+   background-color: var(--pink-elevated);
    color: var(--text);
 }
 
 #team_menu,
 body:not(.loading) #team_menu:hover,
 body:not(.loading) #team_menu:active {
-   background-color: var(--background-elevated) !important;
+   background-color: var(--pink-elevated) !important;
 }
 
 .p-channel_sidebar__channel,
@@ -205,7 +205,7 @@ ts-jumper input[type="text"],
 .p-channel_sidebar__link--selected:visited,
 .p-channel_sidebar__channel--selected:hover,
 .p-channel_sidebar__link--selected:hover {
-   background-color: var(--background) !important;
+   background-color: var(--pink) !important;
    border: solid var(--border-bright);
    border-width: 1px 1px 1px 0;
 }
@@ -240,7 +240,7 @@ li.active[class] span,
 
 /*"more unreads" bottom*/
 .p-channel_sidebar__banner--top {
-   background-color: var(--background);
+   background-color: var(--pink);
    border: 1px solid var(--border-bright);
    border-top: none;
    border-radius: 0 0 15px 15px;
@@ -248,7 +248,7 @@ li.active[class] span,
 
 /*"more unreads" bottom */
 .p-channel_sidebar__banner--bottom {
-   background-color: var(--background);
+   background-color: var(--pink);
    border: 1px solid var(--border-bright);
    border-bottom: none;
    border-radius: 15px 15px 0 0;
@@ -270,7 +270,7 @@ li.active[class] span,
 
 /* new scrollbar */
 .p-channel_sidebar div.c-custom_scrollbar__thumb_vertical, .p-channel_sidebar div.c-scrollbar__bar {
-  background: var(--background-elevated);
+  background: var(--pink-elevated);
   border: 1px solid var(--scrollbar-border);
 }
 
