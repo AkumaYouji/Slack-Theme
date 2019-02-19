@@ -19,8 +19,8 @@ limitations under the License.
    --primary: #55CDFC;
    --text: #FFFFFF;
    --text-black: #000000;
-   --background: rgb(99, 66, 73);
-   --background-elevated: rgb(133, 87, 97);;
+   --background: #c17080;
+   --background-elevated: #d18191;
 
    /* These should be less important: */
    --background-hover: rgba(255, 255, 255, 0.1);
