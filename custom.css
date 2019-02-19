@@ -40,6 +40,7 @@ limitations under the License.
    --pink-elevated: #f9b1bf;
    --blue: #55CDFC;
    --blue-elevated: rgb(122, 217, 255);
+   --blue-text: rgb(174, 232, 255);
 }
 
 h1, h2, h3, h4 {
@@ -106,7 +107,7 @@ body:not(.loading) #team_menu:active {
 .p-channel_sidebar__link--invites:not(.p-channel_sidebar__link--dim) .p-channel_sidebar__name,
 .p-channel_sidebar__section_heading_label--clickable:hover,
 .p-channel_sidebar__quickswitcher:hover {
-   color: var(--text-bright) !important;
+   color: var(--blue-text) !important;
 }
 
 /*broken*/
