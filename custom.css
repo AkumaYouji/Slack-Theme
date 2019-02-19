@@ -48,7 +48,7 @@ h1, h2, h3, h4 {
 
 body {
     background: var(--pink);
-    color: var(--text); 
+    color: var(--text);
 }
 hr {
     border: 0;
@@ -225,7 +225,7 @@ ts-jumper input[type="text"],
 
 .p-channel_sidebar__channel--selected:hover,
 .p-channel_sidebar__link--selected:hover {
-   border: solid var(--border-dim);
+   border: solid var(--blue);
    border-width: 1px 1px 1px 0;
 }
 
