@@ -86,7 +86,7 @@ nav.p-channel_sidebar {
 #team_menu,
 body:not(.loading) #team_menu:hover,
 body:not(.loading) #team_menu:active {
-   background-color: var(--pink-elevated) !important;
+   background-color: var(--blue-elevated) !important;
 }
 
 .p-channel_sidebar__channel,
