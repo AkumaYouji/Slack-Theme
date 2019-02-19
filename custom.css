@@ -34,7 +34,7 @@ limitations under the License.
    --text-special: var(--primary);
 
    --scrollbar-background: #FFFFFF;
-   --scrollbar-border: var(--primary);
+   --scrollbar-border: #FFFFFF;
 
    --pink: #F7A8B8;
    --pink-elevated: #f9b1bf;
