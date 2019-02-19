@@ -33,7 +33,7 @@ limitations under the License.
    --text-bright: #FFF;
    --text-special: var(--primary);
 
-   --scrollbar-background: #000;
+   --scrollbar-background: #FFFFFF;
    --scrollbar-border: var(--primary);
 
    --pink: #F7A8B8;
@@ -47,7 +47,7 @@ h1, h2, h3, h4 {
 
 body {
     background: var(--pink);
-    color: var(--text);
+    color: var(--text); 
 }
 hr {
     border: 0;
@@ -270,7 +270,7 @@ li.active[class] span,
 
 /* new scrollbar */
 .p-channel_sidebar div.c-custom_scrollbar__thumb_vertical, .p-channel_sidebar div.c-scrollbar__bar {
-  background: var(--pink-elevated);
+  background: var(--scrollbar-background);
   border: 1px solid var(--scrollbar-border);
 }
 
