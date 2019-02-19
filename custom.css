@@ -34,6 +34,9 @@ limitations under the License.
 
    --scrollbar-background: #000;
    --scrollbar-border: var(--primary);
+
+   --pink: #F7A8B8;
+   --blue: #55CDFC;
 }
 
 h1, h2, h3, h4 {
@@ -55,8 +58,8 @@ hr {
 
 /* Team Picker */
 .TeamSidebar, .TeamSidebar .StoplightContainer, .TeamSidebar .TeamSidebar-addArea {
-   background-color: var(--background) !important;
-   box-shadow: var(--background) 1px 1px 25px;
+   background-color: var(--pink) !important;
+   box-shadow: var(--pink) 1px 1px 25px;
    color: var(--text);
    z-index: 1;
 }
