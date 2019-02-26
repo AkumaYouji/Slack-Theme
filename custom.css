@@ -974,9 +974,9 @@ div::-webkit-scrollbar-thumb {
 .cm-s-default .cm-def {color: #37f}
 .cm-s-default .cm-variable-2 {color: #09f}
 .cm-s-default .cm-variable-3 {color: #0fa}
-.cm-s-default .cm-comment {color: #f80}
-.cm-s-default .cm-string {color: #f33}
-.cm-s-default .cm-string-2 {color: #f50}
+.cm-s-default .cm-comment {color: rgb(180, 96, 0)}
+.cm-s-default .cm-string {color: rgb(156, 33, 33)}
+.cm-s-default .cm-string-2 {color: rgb(167, 56, 0)}
 .cm-s-default .cm-meta,.cm-s-default .cm-qualifier {color: #aaa}
 .cm-s-default .cm-builtin {color: #96f}
 .cm-s-default .cm-bracket {color: #ffa}
